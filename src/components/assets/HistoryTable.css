@@ -1,0 +1,29 @@
+.history-container {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Courier New', monospace;
+}
+
+.history-table th,
+.history-table td {
+  border: 1px solid #444;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.history-table th {
+  background-color: #222;
+  color: lime;
+}
+
+.history-table td {
+  background-color: #111;
+  color: white;
+}
