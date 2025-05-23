@@ -1,74 +1,70 @@
-# README. 
+# ⚾ Digit Baseball ⚾
 This line is written for test git readme.
 
+숫자 추리 게임 "Baseball Guess"는 숫자를 입력해 Strike와 Ball 힌트를 바탕으로 정답을 추리해 나가는 미니 게임입니다.
+숫자 위치와 값을 맞추면 Strike, 값만 맞추면 Ball!
+10번 안에 4스트라이크를 맞히면 YOU WIN! 🎉
 
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+📌 주요 기능
+🎮 게임 시작 및 리셋
+게임 시작 버튼을 누르면 무작위 4자리 숫자가 생성되어 게임이 시작됩니다.
+시도 횟수가 10회를 넘기면 게임 오버!
 
-In the project directory, you can run:
+🧠 숫자 카드 선택
+0~9까지의 숫자 카드 클릭으로 입력이 가능하며,
 
-### `npm start`
+1회 클릭: 확정 숫자로 표시
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2회 클릭: 카드 비활성화
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3회 클릭: 초기 상태로 돌아감
 
-### `npm test`
+✍️ 입력과 힌트
+선택된 숫자를 입력창에 입력할 수 있고, 제출 후 힌트(Strike, Ball)가 표시됩니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+📊 히스토리 기록
+지금까지의 추측 결과가 Strike / Ball 테이블 형식으로 정리되어 표시됩니다.
 
-### `npm run build`
+🎆 승리/패배 UI 효과
+게임 결과에 따라 멋진 메시지와 함께 다시 시작할 수 있는 RETRY 버튼 제공.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![게임 스크린샷](./public/README_components/img_1.png)
+![게임 스크린샷](./public/README_components/img_2.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🖥️ 기술 스택
+React – 컴포넌트 기반 UI
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+JavaScript – 로직 처리
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+CSS – UI 스타일링
 
-## Learn More
+Git/GitHub – 버전 관리
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🧪 실행 방법
 
-### Analyzing the Bundle Size
+# 프로젝트 클론
+git clone https://github.com/yourusername/baseball-guess-game.git
+cd baseball-guess-game
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# 패키지 설치
+npm install
 
-### Making a Progressive Web App
+# 개발 서버 실행
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+👤 개발자 정보
+개발자: jhcodeDev
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub: https://github.com/jhcodeDev
