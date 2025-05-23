@@ -32,15 +32,15 @@
 
 
 # 🖥️ 기술 스택
-React – 컴포넌트 기반 UI 
-JavaScript – 로직 처리 
-CSS – UI 스타일링 
-Git/GitHub – 버전 관리 
+React – 컴포넌트 기반 UI  
+JavaScript – 로직 처리  
+CSS – UI 스타일링  
+Git/GitHub – 버전 관리  
 
 
 # 🧪 실행 방법
 
-1. 프로젝트 클론
+1. 프로젝트 클론  
 git clone https://github.com/yourusername/baseball-guess-game.git  
 cd baseball-guess-game  
 
